@@ -39,6 +39,7 @@
   width: 100%;
   max-width: 330px;
   padding: 15px;
+  padding-top: 70px;
   margin: 0 auto;
 }
 .form-signin .checkbox {
@@ -86,4 +87,9 @@ border-radius: 0;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+#h12 {
+padding-top: 0px;
+margin-top: 0px;
 }
