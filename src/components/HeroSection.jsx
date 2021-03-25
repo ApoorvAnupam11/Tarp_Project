@@ -14,6 +14,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
+          navigate="search"
         >
           SEARCH
         </Button>
@@ -21,6 +22,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
+          navigate = "recommend"
           onClick={console.log("hey")}
         >
           RECOMMEND <i class="fas fa-user-edit"></i>
