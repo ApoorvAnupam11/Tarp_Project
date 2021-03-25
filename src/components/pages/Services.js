@@ -1,6 +1,13 @@
-import React from 'react';
-import '../../App.css';
-
-export default function Services() {
-  return <h1 className='services'>SERVICES</h1>;
+import React from "react";
+import "../../App.css";
+import SearchBar from "../SearchBar";
+import Footer from "../Footer";
+function Services() {
+  return (
+    <>
+      <SearchBar />
+      <Footer />
+    </>
+  );
 }
+export default Services;
