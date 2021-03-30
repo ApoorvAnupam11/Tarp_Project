@@ -68,7 +68,7 @@ function Footer() {
               <i class="fas fa-user-graduate"></i>
             </Link>
           </div>
-          <small class="website-rights">LEARN © 2020</small>
+          <small class="website-rights">FRED © 2020</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"

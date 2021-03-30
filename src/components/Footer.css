@@ -26,7 +26,7 @@
 
 .footer-subscription-heading {
   margin-bottom: 24px;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .footer-subscription-text {
@@ -160,4 +160,9 @@
 }
 
 @media screen and (max-width: 768px) {
+<<<<<<< HEAD
 }
+=======
+  
+}
+>>>>>>> 2d4a1dc8e3975b08775e25c627edee6074d21ff1
