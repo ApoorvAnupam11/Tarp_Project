@@ -42,7 +42,7 @@ function SignUp() {
           <Link to="/sign-in">Already have an account?</Link>
         </small>
       </form>
-      <p class="mt-5 mb-3 text-muted text-center">&copy; Fred</p>
+      <p class="mt-5 mb-3 text-muted text-center">&copy; Learn</p>
       <Footer />
     </div>
   );

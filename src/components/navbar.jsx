@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
-import "./navbar.css";
+import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -28,8 +28,13 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            FRED&nbsp;&nbsp;
+          <Link
+            to="/"
+            style={{ textDecoration: "none", color: "white" }}
+            className="navbar-logo"
+            onClick={closeMobileMenu}
+          >
+            LEARN&nbsp;
             <i class="fas fa-user-graduate"></i>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -37,13 +42,19 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/"
+                style={{ textDecoration: "none", color: "white" }}
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Home
               </Link>
             </li>
             <li className="nav-item">
               <Link
                 to="/services"
+                style={{ textDecoration: "none", color: "white" }}
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -53,6 +64,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 to="/products"
+                style={{ textDecoration: "none", color: "white" }}
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -70,7 +82,11 @@ function Navbar() {
               </Link>
             </li> */}
           </ul>
-          {button && <Button buttonStyle="btn--outline" navigate = "sign-in">Sign in</Button>}
+          {button && (
+            <Button buttonStyle="btn--outline" navigate="sign-in">
+              Sign in
+            </Button>
+          )}
         </div>
       </nav>
     </>
